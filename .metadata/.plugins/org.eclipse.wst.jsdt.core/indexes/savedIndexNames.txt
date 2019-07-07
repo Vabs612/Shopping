@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+C:\Users\VABS\eclipse-workspace\Shopping\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+360640458.index
+2504459299.index
+2504459299.index

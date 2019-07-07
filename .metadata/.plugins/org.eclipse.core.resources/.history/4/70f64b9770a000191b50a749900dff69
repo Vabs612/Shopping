@@ -1,0 +1,48 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Login</title>
+    <spring:url value="/resources/css/main.css" var="mainCss" />
+    <link href="${mainCss}" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+<div id="login-box-login">
+<br>
+<p class="login-title">Login to ShopIT</p>
+
+<p class="login-button-info-text login-info-text">EASILY USING</p>
+<input type="button" class="social-login facebook" onclick="window.location.href='http://google.com';"value="Facebook"/>
+<input type="button" class="social-login twitter"value="Twitter"/>
+<input type="button" class="social-login google"value="Google+"/>
+  <p class="login-button-info-text login-info-text">-USING EMAIL-</p>  
+ 
+<form method="POST" class="login-login-form">
+<fieldset class="login-input-container">
+ <input type="text" class="login-user-input-email login-user-input" name="email" placeholder="Email" />
+    <input type="password" class="login-user-input-password login-user-input" name="password" placeholder="Password" />
+    <input type="hidden" class="login-user-input-password login-user-input" name="xsrf" value="anpqLURDRqLXKLByv0mNgyUqV9DbEcR4">
+</fieldset>
+<fieldset class="login-login-button-container"><button class="login-login-button">Log in</button>
+</fieldset>
+</form>
+
+<div class="login-right-links">
+<span class="login-info-text">New to ShopIt?</span>
+<a class="login-create-account-link login-link" href="<spring:url value="/WEB-INF/views/login.jsp" >"> Create Account</a>
+</div>  
+
+</div>
+<!-- end document-->

@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\VABS\eclipse-workspace\Shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2504459299.index
+\Shopping\src\main\java
+C:\Users\VABS\eclipse-workspace\Shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2928744744.index
+\ShoppingCart\src\main\java
+C:\Users\VABS\eclipse-workspace\Shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1410702365.index
+\ShopIT\src\main\java
+C:\Users\VABS\eclipse-workspace\Shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4191196601.index
+\librarym\src
